@@ -25,7 +25,6 @@ class Student:
                 sum_grade += sum(value)
         return round(sum_grade / count_grade, 1)
                 
-    
     def __str__(self):
         res = f'''Имя: {self.name}
 Фамелия: {self.surname}
