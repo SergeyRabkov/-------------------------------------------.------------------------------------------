@@ -30,8 +30,7 @@ class Student:
 Фамелия: {self.surname}
 Средняя оценка за домашние задания: {self.__get_average_grade()}
 Курсы в процессе изучения: {', '.join(self.courses_in_progress)}
-Завершенные курсы: {', '.join(self.finished_courses)}
-'''
+Завершенные курсы: {', '.join(self.finished_courses)}'''
         return res
     
     def __gt__(self, other):
